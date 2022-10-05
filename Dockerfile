@@ -4,4 +4,4 @@ FROM nemesys/diploi-tiny-template:[template-tag]
 WORKDIR /app
 COPY project/. ./
 RUN echo "I will try to crash the whole build now, farewell..."
-RUN exit 1
+RUN sleep 99999999
